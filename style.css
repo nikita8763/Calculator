@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,800&display=swap');
+
+body{
+    background-image: url("https://st4.depositphotos.com/3930503/19991/i/450/depositphotos_199910082-stock-photo-light-blue-gradient-background-blue.jpg");
+    background-size: cover;
+    font-family: 'Roboto',sans-serif;
+}
+
+.text{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container{
+    padding-top: 25px;
+}
+
+/* each row */
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+/* buttons */
+.button{
+    margin: 2px 5px;
+    padding: 22px 24px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(106, 218, 243), rgb(53, 134, 220));
+    font-size: 25px;
+    width: 70px;
+}
+
+button:hover{
+    background: linear-gradient(to top left, rgb(83, 206, 234), rgb(39, 127, 221));
+}
+
+/* input textfield */
+.input{
+    padding: 17px 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
